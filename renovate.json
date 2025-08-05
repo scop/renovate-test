@@ -3,7 +3,8 @@
     {
       "matchManagers": ["mise"],
       "matchPackageNames": ["golang/go"],
-      "versioning": "semver"
+      "extractVersion": "^go(?<version>\\d+\\.d+)\\.",
+      "versioning": "docker"
     }
   ]
 }
