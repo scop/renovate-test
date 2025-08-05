@@ -1,8 +1,8 @@
 {
   "packageRules": [
     {
+      "matchDepNames": ["go"],
       "matchManagers": ["mise"],
-      "matchPackageNames": ["golang/go"],
       "versioning": "docker"
     }
   ]
